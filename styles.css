@@ -282,7 +282,9 @@ section .title::after{
     content: "Ce que je propose";
 }
 .services .services-content .card{
+    display: flex;
     width: calc(33% - 20px);
+    min-height: 300px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -293,8 +295,13 @@ section .title::after{
     background: crimson;
 }
 .services .services-content .card .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     transition: all 0.3s ease;
 }
+
 .services .services-content .card:hover .box{
     transform: scale(1.05);
 }
@@ -377,16 +384,20 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 70%;
-}
-.skills-content .right .css::before{
     width: 50%;
 }
+.skills-content .right .css::before{
+    width: 30%;
+}
 .skills-content .right .js::before{
-    width: 25%;
+    width: 40%;
 }
 .skills-content .right .php::before{
-    width: 10%;
+    width: 60%;
+}
+
+.skills-content .right .cs::before{
+    width: 80%;
 }
 
 /* Projets styling */
