@@ -100,6 +100,7 @@ html{
     margin: 260px 0 auto 40px;
 }
 
+
 .home .home-content .text-1{
     font-size: 30px;
 }
@@ -136,6 +137,8 @@ html{
     color: crimson;
     background: none;
 }
+
+
 
 /*all styling */
 footer{
@@ -480,17 +483,24 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(66% - 30px);
 }
 .contact .contact-content text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact .contact-content .left p{
-    text-align: justify;
+    text-align: center;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -498,6 +508,7 @@ section .title::after{
 .contact .contact-content .row{
     display: flex;
     height: 65px;
+    min-width: 300px;
     align-items: center;
 }
 .contact .contact-content .row .info{
@@ -511,7 +522,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: rgb(236, 209, 209);
+    color: crimson;
 }
 .contact .right form .fields{
     display: flex;

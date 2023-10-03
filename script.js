@@ -22,13 +22,13 @@ $('.menu-btn').click(() => {
 
 //typing animation
 var typed = new Typed(".typing", {
-    strings: ["Developer", "étudiant", "en bts SIO", "à Nîmes"],
+    strings: ["Developer", "étudiant", "développeur", "à Nîmes"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
 });
 var typed = new Typed(".typing-2", {
-    strings: ["Developer", "étudiant", "en bts SIO", "à Nîmes"],
+    strings: ["Developer", "étudiant", "développeur", "à Nîmes"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
